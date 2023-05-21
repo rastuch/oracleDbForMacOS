@@ -73,3 +73,5 @@ You can check logs of this container: `docker logs -f 21-full`
 Docker image link: https://hub.docker.com/r/gvenzl/oracle-xe/
 
 First db user: system  | passowrd: SysPassword1@
+
+Do not try start script with SUDO, colima can't be start like that.
