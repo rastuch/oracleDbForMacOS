@@ -64,3 +64,12 @@ To close containers open terminal and type:
 and after that:
 
 `colima stop`
+
+## Additional informations
+Container with oracle db is named: `21-full`
+
+You can check logs of this container: `docker logs -f 21-full`
+
+Docker image link: https://hub.docker.com/r/gvenzl/oracle-xe/
+
+First db user: system  | passowrd: SysPassword1@
